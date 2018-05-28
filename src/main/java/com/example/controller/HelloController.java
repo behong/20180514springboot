@@ -11,7 +11,7 @@ public class HelloController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String helloWorld(Model model) {
         model.addAttribute("name", "SpringBlog from Millky");
-        return "hello2";
+        return "helloJsp";
     }
 
 }
